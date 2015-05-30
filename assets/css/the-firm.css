@@ -1,6 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
 
+.twitter {
+    background-image: url(../img/Twitter.png);
+}
+
+.facebook {
+    background-image: url(../img/Facebook.png);
+}
+
+.icones-redes-sociais{
+    width: 40px;
+    height: 40px;
+    /*display: block;*/
+    text-indent: -99999px;
+}
+
+
 html,
 body {
   height: 100%;
@@ -16,6 +32,11 @@ h1,h2,h3,h4 {
 
 .titulo {
   font-weight: 800;
+}
+
+.titulopt { /*VER PQ SE COLOCAR ESSE SELETOR NOS TITULOS NAO FUNCIONA.*/
+  padding: 20px;
+  background-color: rgba(5,5,5,.8);
 }
 
 .row {
@@ -36,7 +57,7 @@ h1,h2,h3,h4 {
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: 60px;
+  height: 100px;
   background-color: #f5f5f5;
   margin-top:50px;
   padding-top:20px;
