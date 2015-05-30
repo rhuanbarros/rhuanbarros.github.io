@@ -1,21 +1,26 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
 
-.twitter {
-    background-image: url(../img/Twitter.png);
+.bg-cafe-colonial {
+  background: url('../img/cafe2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.facebook {
-    background-image: url(../img/Facebook.png);
+.bg-rafting {
+  background: url('../img/raft.fw.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
-.icones-redes-sociais{
-    width: 40px;
-    height: 40px;
-    /*display: block;*/
-    text-indent: -99999px;
+.titulopt { /*VER PQ SE COLOCAR ESSE SELETOR NOS TITULOS NAO FUNCIONA.*/
+  padding: 20px;
+  background-color: rgba(5,5,5,.8);
 }
-
 
 html,
 body {
@@ -32,11 +37,6 @@ h1,h2,h3,h4 {
 
 .titulo {
   font-weight: 800;
-}
-
-.titulopt { /*VER PQ SE COLOCAR ESSE SELETOR NOS TITULOS NAO FUNCIONA.*/
-  padding: 20px;
-  background-color: rgba(5,5,5,.8);
 }
 
 .row {
@@ -65,11 +65,10 @@ h1,h2,h3,h4 {
 }
 
 
-/* Custom page CSS
--------------------------------------------------- */
+/* ================ CSS DO TEMPLATE ================ */
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
   position: absolute;
@@ -78,7 +77,6 @@ h1,h2,h3,h4 {
   right: 0;
   z-index: 10;
 }
-
 
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -123,11 +121,6 @@ header {
   height:550px;
   color:#000000;
 }
-
-/*header {
-  background: #333;
-  color:#555;
-}*/
 
 header .dropdown-menu {
   top:74px;
@@ -240,42 +233,12 @@ h1 {
   color:#222;
 } 
  
-
 section {
   color: #ffffff;
   min-height: 400px;
   height: auto !important;
   height: 100%;
   padding-top:100px;
-}
-
-.bg-1 {
-	background: url('../img/cafe2.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
-
-.bg-2 {
-	background: url('../example/bg_suburb.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
-
-.bg-3 {
-	background: url('../img/raft.fw.png') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
-
-.bg-4 {
-	padding-top:30px;
-    background-color:#e6e6e6;
 }
 
 .panel .img-responsive {
