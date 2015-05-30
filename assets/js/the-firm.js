@@ -76,8 +76,8 @@ function initialize() {
 	var geocoder = new google.maps.Geocoder();
 	var address = $('#map-input').text(); /* change the map-input to your address */
 	var mapOptions = {
-    	zoom: 15,
-    	mapTypeId: google.maps.MapTypeId.ROADMAP,
+    	zoom: 5,
+    	mapTypeId: google.maps.MapTypeId.TERRAIN,
      	scrollwheel: false
 	};
 	map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
