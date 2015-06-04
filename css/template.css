@@ -2,6 +2,23 @@
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
 
 /* .bg-cafe-colonial */
+.bg-cafe-colonial{
+  background: url('../img/cafe2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-cafecolonial-um{
+    background: url('../img/cafecolonial1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
 .bg-rafting-um{
   background: url('../img/rafting1.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
