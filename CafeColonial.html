@@ -16,6 +16,16 @@
 					<ul class="nav navbar-nav nav-justified">
 						<li><a href="index.html">Início</a></li>
 						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Pontos turísticos<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="cafecolonial.html">Café colonial</a></li>
+								<li><a href="rafting.html">Rafting</a></li>
+							<!--<li><a href="#">Cânions</a></li>
+								<li><a href="#">Cultura Gaúcha</a></li>
+								<li><a href="#">Vinícolas</a></li>			-->
+							</ul>
+						<!-- novo dropdown para navegação das paginas especificas -->
+						<li class="dropdown">
 							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Café Colonial<b class="caret"></b></a>
 							<ul class="dropdown-menu">
 								<li><a href="#sectioncafe1">Café colonial 1</a></li>
@@ -55,25 +65,29 @@
 		</div>
 		<!-- ======================== Section Localização (A mais de baixo) ======================== -->
 		
-		<div class="divider"></div>
-		<div class="divider" id="sectionlocalizacafe"></div> 
- 
-		<!-- == <section class="bg-cafe-colonial">  
-			<section class="bg-cafecolonial-um">		== -->
-			<div class="col-sm-6 col-sm-offset-3 text-center">
-				<h2 style="padding:20px;background-color:rgba(5,5,5,.8)">Localizações dos Locais</h2>
-			</div>
-		</section>
+		<div class="divider" id="sectionlocalizacafe"></div>
 
 		<div class="row">
 			<div class="col-sm-10 col-sm-offset-1">
-				<h1>Pontos </h1>		  
-				<hr>		 
-				<p>Pontos dos locais com café colonial.</p>
-			
-				
-			
-				<hr>
+				<h1>Localização</h1>
+				<p>Clique aqui para ver um mapa interativo com a localização dos pontos turísticos demarcados.</p>
+			</div>   
+			<div id="map-canvas"></div>
+
+			<div class="divider"></div>  
+
+			<div class="col-sm-3 pull-right">
+				<address>
+					O Melhor do Rio Grande do Sul<br>
+					<span id="map-input">
+						Estado do Rio Grande do Sul<br>
+						Brasil
+					</span>
+				</address>
+				<address>
+					<strong>Email</strong><br>
+					<a href="mailto:#">melhorriograndedosul@gmail.com</a>
+				</address>          
 			</div>
 		</div>
 
