@@ -1,14 +1,20 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
 
-
-
-.titulo {
-  font-weight: 800;
-}
-
-header h1 {
-  font-size:40px;
+.sidebox {
+  background-color: rgb(250, 250, 250);
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 18px;
+  margin-top: 26px;
+  border: 1px solid rgb(235, 235, 235);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 24px;
+  color: rgb(51, 51, 51);
 }
 
 .bg-cafe-colonial {
@@ -43,6 +49,10 @@ body {
 h1,h2,h3,h4 {
   font-family: 'Kreon', serif;
   vertical-align:middle;
+}
+
+.titulo {
+  font-weight: 800;
 }
 
 .row {
@@ -124,7 +134,7 @@ header {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  height:100px;
+  height:125px;
   color:#000000;
 }
 
