@@ -7,6 +7,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/pontos-turisticos.css" rel="stylesheet">
+    <link href="css/galeria.css" rel="stylesheet">
+
     <!-- Font Awesome CSS -->
 	<link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
 </head>
@@ -74,9 +76,42 @@
 
 				<div class="divider"></div>
 				
+				<!-- ================= GALERIA =================== -->
 				<h2>Galeria de fotos</h2>
-				<p>colocar uma galeria aqui!</p>
+				
+				<div class="container">
+				  <div class="row">
+				    <div class="row">
+				      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 1"><img src="galerias/cafe/1.jpg" class="thumbnail img-responsive"></a></div>
+				      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 2"><img src="galerias/cafe/2.jpg" class="thumbnail img-responsive"></a></div>
+				      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 3"><img src="galerias/cafe/3.jpg" class="thumbnail img-responsive"></a></div>
+				      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 4"><img src="galerias/cafe/4.jpg" class="thumbnail img-responsive"></a></div>
+				      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 5"><img src="galerias/cafe/5.jpg" class="thumbnail img-responsive"></a></div>
+				      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 6"><img src="galerias/cafe/6.jpg" class="thumbnail img-responsive"></a></div>
+				      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 8"><img src="galerias/cafe/7.jpg" class="thumbnail img-responsive"></a></div>
+				      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 9"><img src="galerias/cafe/8.jpg" class="thumbnail img-responsive"></a></div>
+				      <div class="col-lg-3 col-sm-4 col-6"><a href="#" title="Image 10"><img src="galerias/cafe/9.jpg" class="thumbnail img-responsive"></a></div>      
+				    </div>
+				  </div>
+				</div>
+				<div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+				  <div class="modal-dialog">
+				  <div class="modal-content">
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal">×</button>
+						<h3 class="modal-title">Heading</h3>
+					</div>
+					<div class="modal-body">
+						
+					</div>
+					<div class="modal-footer">
+						<button class="btn btn-default" data-dismiss="modal">Close</button>
+					</div>
+				   </div>
+				  </div>
+				</div>
 
+				<!-- ================= GALERIA =================== -->
 				<div class="divider"></div>
 
 				<h2>Restaurantes</h2>
@@ -127,5 +162,6 @@
 	<script type='text/javascript' src="js/bootstrap.min.js"></script>
 	<script type='text/javascript' src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
 	<script type='text/javascript' src="js/JsTemplate.js"></script>
+	<script type="text/javascript" src="js/galeria.js"></script>
 </body>
 </html>
