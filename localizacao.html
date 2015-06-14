@@ -6,7 +6,7 @@
 	<meta name="generator" content="Bootply" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/contato.css" rel="stylesheet">
+    <link href="css/localizacao.css" rel="stylesheet">
     <!-- Font Awesome CSS -->
 	<link href="css/font-awesome/css/font-awesome.css" rel="stylesheet">
 </head>
@@ -59,6 +59,12 @@
 						<div class="col-sm-12">
 							<div class="footer-content sidebox">
 								<p class="large">Veja abaixo a localização dos principais pontos turísticos do Estado do Rio Grande do Sul.</p>
+
+
+								<div id="map_wrapper">
+									<div id="map_canvas" class="mapping"></div>
+								</div>
+
 							</div>
 						</div>
 
@@ -77,10 +83,10 @@
 		</div>
 	</div>
 	<!-- ======================== Rodapé ======================== -->
-
+	
 	<script type='text/javascript' src="js/jquery.min.js"></script>
 	<script type='text/javascript' src="js/bootstrap.min.js"></script>
-	<script type='text/javascript' src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
 	<script type='text/javascript' src="js/JsTemplate.js"></script>
+	<script type='text/javascript' src="js/localizacao.js"></script>
 </body>
 </html>
