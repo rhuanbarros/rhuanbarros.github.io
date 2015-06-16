@@ -4,6 +4,9 @@
 .subtitulo {
   font-family: 'Kreon', serif;
   vertical-align:middle;
+  padding:20px;
+  background-color:rgba(5,5,5,.7);
+  color:#cccccc;
 }
 
 
