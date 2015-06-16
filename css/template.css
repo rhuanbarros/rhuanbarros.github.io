@@ -207,6 +207,7 @@ h1 {
 	color: #eee;
 }
 .navbar-custom  .navbar-nav li>a:hover, .navbar-nav li .open, .navbar-custom .navbar-nav .active a  {
+  color: #949494;
 	background-color: #000;
 }
 .navbar-custom .navbar-nav>.dropdown>a .caret {
