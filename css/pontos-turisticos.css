@@ -37,6 +37,19 @@
     background-size: cover;
 }
 
+.bg-cultura {
+  background: url('../img/cultura1') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+
+
+
 .titulopt { /*VER PQ SE COLOCAR ESSE SELETOR NOS TITULOS NAO FUNCIONA.*/
   padding: 20px;
   background-color: rgba(5,5,5,.8);

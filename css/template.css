@@ -43,6 +43,27 @@
     -o-background-size: cover;
     background-size: cover;
 }
+.bg-cultura {
+  background: url('../img/cultura1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-vinicola {
+  background: url('../img/vinicola1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-canions {
+  background: url('../img/canion2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
 .titulopt { /*VER PQ SE COLOCAR ESSE SELETOR NOS TITULOS NAO FUNCIONA.*/
   padding: 20px;
