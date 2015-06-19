@@ -1,15 +1,25 @@
 <!DOCTYPE html>
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<!-- Tags direcionadas aos motores de busca -->
+	<meta name="description" content="O Melhor do Rio Grande do Sul é site turístico que disponibiliza informações sobre os principais pontos turísticos do Estado do Rio Grande do Sul de maneira rápida e direta. O objetivo é inspirar o visitante a conhecer a cultura e os pontos turísticos do Estado.">
+	<meta name="keywords" content="Rio Grande do Sul, turismo, Gramado, Café Colonial, Vinhos, Rafting, Caniôn, Restaurantes, Hoteis, Dicas de viagem, roteiro de viagem">
+	<meta name="author" content="Rhuan Barros e Andrei Ferreira">
+
 	<title>Rio Grande do Sul - O melhor do Rio Grande do Sul</title>
-	<meta name="generator" content="Bootply" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Esta tag garante que o Bootstrap vai permitir realziar zoom na página em dispositivos mobile -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<!-- Importação das classes do Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<!-- Css que faz o modelo geral do site -->
     <link href="css/template.css" rel="stylesheet">
+    <!-- Css específico para esta página -->
     <link href="css/index.css" rel="stylesheet">
 </head>
 <body>
 	<!-- ======================== Div Conteudo da página ======================== -->
+	<!-- Essa tag tem algumas propriedas Css que garantem que o Rodapé ficará sempre abaixo do conteúdo -->
 	<div id="wrap">
 
 		<!-- ======================== Cabeçalho com foto grande ======================== -->
@@ -26,38 +36,40 @@
 		<!-- ======================== Cabeçalho com foto grande ======================== -->
 
 		<!-- ======================== Menu ======================== -->
+		<!-- Tag apenas para o link da âncora do menu vir pra ca. -->
 		<div id="sectionInicio"></div>  
-		
- <!-- Fixed navbar -->
-    <nav class="navbar navbar-default navbar-fixed-top navbar-custom" id="nav">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Abrir navegação</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-        </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav nav-justified">
-            <li><a href="#sectionInicio">Início</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pontos turísticos <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#sectionCafe">Café colonial</a></li>
-				<li><a href="#sectionRafting">Rafting</a></li>
-				<li><a href="#sectionCanion">Cânions</a></li>
-				<li><a href="#sectionCultura">Cultura Gaúcha</a></li>
-				<li><a href="#sectionVinicolas">Vinícolas</a></li>
-              </ul>
-            </li>
-			<li><a href="#sectionLocalizacao">Localização</a></li>
-			<li><a href="contato.html">Contato</a></li>
-          </ul>          
-        </div><!--/.nav-collapse -->
-      </div>
-    </nav>
+				
+			<!-- Código do Twitter Bootstrap que faz o menu -->
+			<nav class="navbar navbar-default navbar-fixed-top navbar-custom" id="nav">
+		      <div class="container">
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+		            <!-- Essa tag serve apenas para os software leitores de tela para deficientes visuais. -->
+		            <span class="sr-only">Abrir navegação</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		        </div>
+		        <div id="navbar" class="navbar-collapse collapse">
+		          <ul class="nav navbar-nav nav-justified">
+		            <li><a href="#sectionInicio">Início</a></li>
+		            <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pontos turísticos <span class="caret"></span></a>
+		              <ul class="dropdown-menu">
+		                <li><a href="#sectionCafe">Café colonial</a></li>
+						<li><a href="#sectionRafting">Rafting</a></li>
+						<li><a href="#sectionCanion">Cânions</a></li>
+						<li><a href="#sectionCultura">Cultura Gaúcha</a></li>
+						<li><a href="#sectionVinicolas">Vinícolas</a></li>
+		              </ul>
+		            </li>
+					<li><a href="#sectionLocalizacao">Localização</a></li>
+					<li><a href="contato.html">Contato</a></li>
+		          </ul>          
+		        </div>
+		      </div>
+		    </nav>
 
 
 
@@ -187,9 +199,6 @@
 				<a href="localizacao.html" class="btn btn-info" role="button">Clique aqui para ver um mapa interativo com a localização dos pontos turísticos demarcados.</a>
 				<p></p> <!-- Só para dar um espaço entre o botão e o mapa. -->
 			</div>   
-			<!-- <div id="map-canvas"></div> -->
-			<!-- <iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Rio%20Grande%20do%20Sul%2C%20Brasil&key=AIzaSyD4PS20CevDfO2N8AjFH3ySIhWGM7Z86tA"></iframe> -->
-
 		</div>
 
 			<div class="google-maps">
