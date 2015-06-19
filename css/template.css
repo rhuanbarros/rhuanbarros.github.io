@@ -18,16 +18,17 @@
     -o-background-size: cover;
     background-size: cover;
 }
+/*
 .bg-cafecolonial-um{
     background: url('../img/cafecolonial1.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
+}*/
 
 
-
+/*
 .bg-rafting-um{
   background: url('../img/rafting1.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
@@ -35,9 +36,9 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
+*/
 .bg-rafting {
-  background: url('../img/raft.fw.png') no-repeat center center fixed; 
+  background: url('../img/raft.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -161,7 +162,7 @@ h1,h2,h3,h4 {
 }
 
 header {
-  background: url("../img/canion.JPG") no-repeat center center fixed; 
+  background: url("../img/Canion_Fortaleza.JPG") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
