@@ -1,7 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
 
-
 #map_wrapper {
     height: 400px;
 }
@@ -11,45 +10,14 @@
     height: 100%;
 }
 
-
-
-/* .bg-cafe-colonial */
-.bg-cafe-colonial{
-  background: url('../img/cafe2.jpg') no-repeat center center fixed; 
+header {
+  background: url("../img/Canion_Fortaleza.JPG") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-}
-.bg-cafecolonial-um{
-    background: url('../img/cafecolonial1.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-
-
-.bg-rafting-um{
-  background: url('../img/rafting1.jpg') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.bg-rafting {
-  background: url('../img/raft.fw.png') no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-
-.titulopt { /*VER PQ SE COLOCAR ESSE SELETOR NOS TITULOS NAO FUNCIONA.*/
-  padding: 20px;
-  background-color: rgba(5,5,5,.8);
+  height:150px;
+  color:#000000;
 }
 
 html,
@@ -140,16 +108,6 @@ h1,h2,h3,h4 {
 
 #footer a {
   color:#efefef;
-}
-
-header {
-  background: url("../img/canion.JPG") no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  height:150px;
-  color:#000000;
 }
 
 header .dropdown-menu {
