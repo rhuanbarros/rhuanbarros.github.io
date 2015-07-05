@@ -149,13 +149,7 @@ Rua dos Andradas, 1234 Sala 507 Centro - Porto Alegre, RS</p></div>
 					<!-- Promotion Code -->
 					<div class="col-md-4  col-md-offset-0 col-sm-6 col-sm-offset-6">
 						<div class="cart-promo-code">
-							<h6><i class="glyphicon glyphicon-gift"></i> Digite abaixo seu código promocional se houver</h6>
-							<div class="input-group">
-								<input class="form-control input-sm" id="appendedInputButton" type="text" value="">
-								<span class="input-group-btn">
-									<button class="btn btn-sm btn-grey" type="button">Aplicar</button>
-								</span>
-							</div>
+							
 						</div>
 					</div>
 					<!-- Shipment Options -->
@@ -182,11 +176,12 @@ Rua dos Andradas, 1234 Sala 507 Centro - Porto Alegre, RS</p></div>
 						<div class="pull-right">
 							
 <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
-<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post">
+<form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
 <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
 <input type="hidden" name="itemCode" value="D958D93C6A6A14A3347E8F8E78CF4C14" />
 <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/209x48-pagar-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
 </form>
+<script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
 <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
 
 						</div>
