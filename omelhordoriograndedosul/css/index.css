@@ -1,0 +1,65 @@
+
+.titulo {
+  font-weight: 800;
+}
+
+.subtitulo {
+  font-family: 'Kreon', serif;
+  vertical-align:middle;
+  padding:20px;
+  background-color:rgba(5,5,5,.7);
+  color:#cccccc;
+}
+
+.bg-cafe-colonial{
+  background: url('../img/cafe2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.bg-rafting {
+  background: url('../img/raft.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-cultura {
+  background: url('../img/cultura1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-vinicola {
+  background: url('../img/vinicola1.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.bg-canions {
+  background: url('../img/canion2.jpg') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* ================ Propriedades para fazer o mapa no Iframe ficar responsivo ================ */
+.google-maps {
+    position: relative;
+    padding-bottom: 25%;
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    border: 0px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
