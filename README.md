@@ -1,6 +1,6 @@
 # rhuanbarros.github.io
-Instituto Federal do Rio Grande do Sul - IFRS
-2015/01
-Cadeira de Criação de Páginas Web
 
-Objetivo do projeto: Desenvolver um website que apresente os principais pontos turísticos do Rio Grande do Sul.
+<h2 class="alt">Meu nome é <strong>Rhuan Barros</strong>, <br>este é meu site pessoal.</h2>
+<br><br>
+<p>Eu estudo Sistemas para Internet no Instituto Federal do Rio Grande do Sul,<br />
+curto programação e andar de skate, além de matar tempo com os amigos.</p>
