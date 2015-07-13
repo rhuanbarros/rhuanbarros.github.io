@@ -1,0 +1,32 @@
+.nome {
+	color: #ffffff;
+	font-size: 65px;
+	font-weight: 700;
+	line-height: 76px;
+	margin: 0 auto 10px;
+	padding-bottom: 8px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	width: 90%;
+}
+
+
+.slider_overlay2 {
+  /*background: none repeat scroll 0 0 #242434;*/
+  height: 100%;
+  /*opacity: 0.5;*/
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.slider_btn2{
+	padding: 10px 15px;
+	border: 2px solid #fff;
+	color: #000;
+	font-size: 20px;
+	display: inline-block;
+	text-transform: uppercase;
+}
