@@ -1,3 +1,67 @@
+@import url(http://fonts.googleapis.com/css?family=Kreon:400,700);
+
+.bg-rio{
+  background: #000 url('../img/riodejaneiro3.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+		height: 400px;
+}
+
+.h1cover {
+		-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+	color: rgb(51, 51, 51);
+	display: block;
+	font-family: Kreon, Georgia, serif;
+	font-size: 50px;
+	font-weight: 500;
+	height: 55px;
+	line-height: 55px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 20px;
+	vertical-align: middle;
+}
+
+.titulocover {
+		-webkit-font-smoothing: antialiased;
+	background-color: rgba(5, 5, 5, 0.8);
+	box-sizing: border-box;
+	color: rgb(255, 255, 255);
+	display: block;
+	font-family: Kreon, Georgia, serif;
+	font-size: 30px;
+	font-weight: 500;
+	height: 73px;
+	line-height: 33px;
+	margin-bottom: 10px;
+	margin-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom-color: none !important;
+}
+
+
+.secmariafumaca {
+	background-color: #FFF;
+}
+
+.bg-cafe-colonial{
+  background: #000 url('../img/mariafumaca.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+		height: 400px;
+}
+
 .busca {
 	width: 150px;
 }
@@ -31,7 +95,7 @@
 }
 
 .bg-email{
-  background: url('../img/vinicola1.fw.png') no-repeat center center fixed; 
+  background: url('../img/vinicola1.fw.png') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
