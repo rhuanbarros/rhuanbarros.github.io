@@ -1,11 +1,25 @@
+
+.w3-button {
+  border: none;
+  display: flex !important;
+  vertical-align: middle;
+  /* overflow: hidden; */
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  /* white-space: nowrap; */
+}
+
 body {
-  max-width:1300px !important;
+  max-width: 1300px !important ;
+  background-color: #ccc;
 }
 
 .align-horizontal {
   display: flex;
   justify-content: center;
-  
 }
 
 .align-horizontal a {
@@ -13,8 +27,20 @@ body {
   margin-right: 0.5em;
 }
 
-.plano-de-fundo {
-  background: url(images/192776_497911483571324_517853777_o.jpg);
+.plano-de-fundo-avatar {
+  background: url(images/fundo_São_Francisco_de_Paula.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.plano-de-fundo-artigo div {
+  padding: 1em;
+  width: 12em;
+}
+
+.plano-de-fundo-artigo {
+  background: url(images/fundo_artigo.jpg);
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -186,19 +212,7 @@ a {
 .w3-table th:first-child {
   padding-left: 16px;
 }
-.w3-button {
-  border: none;
-  display: inline-block;
-  padding: 8px 16px;
-  vertical-align: middle;
-  overflow: hidden;
-  text-decoration: none;
-  color: inherit;
-  background-color: inherit;
-  text-align: center;
-  cursor: pointer;
-  white-space: nowrap;
-}
+
 .w3-button {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
